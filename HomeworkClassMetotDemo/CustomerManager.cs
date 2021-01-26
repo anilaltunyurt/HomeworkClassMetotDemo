@@ -26,6 +26,16 @@ namespace HomeworkClassMetotDemo
         {
             Console.WriteLine("Müşteri Silindi : " + customer.Name + " " + customer.Surname);
         }
-        
-    }
+
+        public void List(Customer[] customers)
+        {
+            foreach (Customer customer in customers)
+            {
+                Console.WriteLine(customer.Name + " " + customer.Surname + " " + customer.Id + " " + customer.TelNumber);
+                Console.WriteLine("Müşteriler Listelendi.");
+            }
+
+        }
+    }   
+    
 }

@@ -40,7 +40,7 @@ namespace HomeworkClassMetotDemo
             customerManager.Add(customer1);
             customerManager.Delete(customer2);
             customerManager.Info(customer3);
-
+            customerManager.List(customers);
 
 
             
